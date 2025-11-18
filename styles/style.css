@@ -37,7 +37,7 @@
   column-gap: 20px;
   display: flex;
   justify-content: space-around;
-  padding: o;
+  padding: 0;
   margin: 8px 0 0;
 }
 
@@ -64,7 +64,7 @@
 .header__description {
   line-height: 30px;
   font-size: 20px;
-  font-weight: 30px;
+  font-weight: 30;
   max-width: 515px;
   margin-top: 32px;
 }
@@ -112,15 +112,14 @@
 }
 .staff__cards {
   height: 760px;
-
+  gap: 40;
+  padding: 0;
   max-width: 860px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   list-style: none;
   justify-content: space-between;
-  gap: 40;
-  padding: 0;
 }
 
 .card {
@@ -128,13 +127,15 @@
   background-color: white;
   height: 360px;
   width: 420px;
-  max-width: 420px;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
 }
+.card__content {
+  max-width: 420px;
+}
 .card__title {
-  text-align: center;
+  text-align: start;
 }
 .card__text {
   padding-top: 20px;
