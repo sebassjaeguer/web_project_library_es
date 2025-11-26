@@ -348,7 +348,6 @@
   margin-bottom: 20px;
 }
 .footer__column-link {
-  color: white;
   text-decoration: none;
 }
 .footer__column_content_social {
@@ -356,11 +355,10 @@
   height: 80px;
   margin-right: 80px;
 }
-.social {
-  display: flex;
-}
 
 .footer__list {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -375,6 +373,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 .footer__copyright {
   margin-top: 100px;
